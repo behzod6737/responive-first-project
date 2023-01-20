@@ -19,7 +19,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
-    background-color: #fff;
+    background-color: rgb(44, 41, 38);
 }
 
 img {
@@ -37,12 +37,63 @@ img {
 
 /* utilities */
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
+/* header */
+
+#header {
+    height: 80px;
+    background-color: rgb(29, 26, 24);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(238, 164, 80);
+}
+
+.nav__list {
+    display: flex;
+    gap: 2em;
+}
+
+.item__link {
+    color: rgb(185, 131, 31);
+    font-size: 20px;   
+}
+.item__link:hover {
+    color: hsl(39, 100%, 42%);
+}
+
+/* main  */
+.main__headline {
+    text-align: center;
+    color: rgb(238, 164, 80);
+    font-size: 48px;
+}
+
+.foot__item {}
+
+.card__img {}
+
+.food__item-content {}
+
+.card__desc {}
+
+.card__link {}
+
+.food__item {}
