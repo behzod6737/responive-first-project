@@ -51,6 +51,8 @@ a {
 #header {
     height: 80px;
     background-color: rgb(29, 26, 24);
+    display: flex;
+    align-items: center;
 }
 
 .header__wrapper {
@@ -73,8 +75,9 @@ a {
 
 .item__link {
     color: rgb(185, 131, 31);
-    font-size: 20px;   
+    font-size: 20px;
 }
+
 .item__link:hover {
     color: hsl(39, 100%, 42%);
 }
@@ -86,14 +89,53 @@ a {
     font-size: 48px;
 }
 
-.foot__item {}
+#card__section {
+    width: 80%;
+}
 
-.card__img {}
+#card__section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 0;
+    padding: 0;
+}
 
-.food__item-content {}
+.foot__item {
+    background-color: rgb(228, 206, 182);
+    border-radius: 6px;
+    overflow: hidden;
+}
 
-.card__desc {}
+.card__img {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
 
-.card__link {}
+.food__item-content {
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+h3{
+    font-size:2em ;
+    /* font-size: 200%; */
+    font-size: 2rem;
+}
+.card__desc {
+    margin-top: 0;
+}
+
+.card__link {
+    background: rgb(228, 157, 44);
+    color: white;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
+.card__link:hover {
+    background: rgb(221, 134, 34);
+}
 
 .food__item {}
